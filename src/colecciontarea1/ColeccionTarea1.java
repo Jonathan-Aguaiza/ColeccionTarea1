@@ -34,13 +34,14 @@ public class ColeccionTarea1 {
         materialesProyecto.add("\n Socket para las los rele ");
         materialesProyecto.add("\n Interructor trifasico ");
         materialesProyecto.add("\n Seis metros de Alambre Automotriz ");
-        materialesProyecto.add("\n Rele de bajas ");
         materialesProyecto.add("\n Fusibles ");
         materialesProyecto.add("\n Porta fusibles ");
         materialesProyecto.add("\n Taipe ");
         materialesProyecto.add("\n Bornes ");
         materialesProyecto.add("\n Bateria de 12 V ");
-        materialesProyecto.add("\n Multimetro Automotriz \n");
+        materialesProyecto.add("\n Multimetro Automotriz ");
+        materialesProyecto.add("\n Pinza pico pato ");
+        materialesProyecto.add("\n Alicate \n");
         System.out.println("Número de componente utilizados para realizar el proyecto: "+
                 materialesProyecto.size());
         System.out.println("LOS COMPONENTES SON: ");
@@ -48,13 +49,14 @@ public class ColeccionTarea1 {
         materialesProyecto.remove("\n Diagrama del circuito ");
         materialesProyecto.remove("\n Seis metros de Alambre Automotriz ");
         materialesProyecto.remove("\n Taipe ");
-        materialesProyecto.remove("\n Multimetro Automotriz \n");
+        materialesProyecto.remove("\n Multimetro Automotriz ");
+        materialesProyecto.remove("\n Pinza pico pato ");
+        materialesProyecto.remove("\n Alicate \n");
         materialesProyecto.remove("\n Una tabla triplex de 50 centimetros en cuadro ");
         System.out.println("Número de componentes después de ser eliminados: Diagrama del circuito, Seis metros de Alambre Automotriz, Taipe,\n"
-                + "La tabla triplex de 50 centimetros en cuadro y el Multimetro Automotriz: "
+                + "La tabla triplex de 50 centimetros en cuadro, Pinza pico pato, Alicate y el Multimetro Automotriz: "
         +materialesProyecto.size());
         System.out.println("LOS COMPONENTES UTILIZADOS PARA REALIZAR LA SIMULACIÓN SON: ");
         System.out.println(materialesProyecto.toString());
-    }
-    
+    }   
 }
